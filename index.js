@@ -53,6 +53,3 @@ app.post('/pointEdit/:idx', (req, res) => {
 app.get('/', (req, res) => {
     res.status(200).sendFile(path.join(__dirname,"/home.html"));
 });
-
-
-
